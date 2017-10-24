@@ -74,8 +74,8 @@ function paycores_woocommerce_init(){
 			$this->currency             = ($this->is_valid_currency())?get_woocommerce_currency():'USD';
 			$this->textactive           = 0;
 			$this->form_method          = $this->settings['form_method'];
-			$this->liveurl              = 'http://localhost/business_core/web-checkout/';//'https://business.paycores.com/web-checkout/';
-			$this->testurl              = 'http://localhost/business_core/web-checkout/';//'https://sandbox.paycores.com/web-checkout/';
+			$this->liveurl              = 'https://business.paycores.com/web-checkout/';
+			$this->testurl              = 'https://sandbox.paycores.com/web-checkout/';
 			/* Mensajes de Paycores */
 			$this->msg_approved         = $this->settings['msg_approved'];
 			$this->msg_declined         = $this->settings['msg_declined'];
