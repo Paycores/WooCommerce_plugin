@@ -11,19 +11,19 @@ Se debe de [descargar](https://Paycores/WooCommerce_plugin/archive/master.zip)el
 
 **Paso 2:**
 Instalación en WooCommerce: en el menu de Plugins haces clic en **Añadir nuevo**
-![alt text](https://raw.githubusercontent.com/Paycores/steps/blob/master/WoCommerce/step_1.png)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_1.png)
 
 Despues haces clic en **Subir plugin**
-![alt text](https://raw.githubusercontent.com/Paycores/steps/blob/master/WoCommerce/step_2.png)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_2.png)
 
 Selecciona el plugin WooCommerce de Paycores descargado anteriormente
-![alt text](https://www.w3schools.com/css/img_fjords.jpg)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_3.png)
 
 Clic en **instalar Ahora**
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_4.png)
 
 Para finalizar la instalacion activa el plugin WooCommerce de Paycores
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_5.png)
 
 
 ## Configurar el plugin WooCommerce de Paycores ##
