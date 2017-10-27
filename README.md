@@ -44,5 +44,4 @@ Llene los datos que se solicitan y presione el boton **Guardar los cambios**![al
 Felicitaciones ha integrado pagos a través de Paycores en su página web.
 
  ## Recomendaciones: ##
-El servicio de nuestra Api requiere de que los servidores cuenten con un certificado TLS debidamente firmado, y el proyecto debe de estar bien estructurado con el código limpio para que el certificado TLS SSL funcione correctamente. 
-
+Tenga en cuenta que los pasos pueden cambiar un poco dependiendo de cada version WooCommerce y de algunas configuraciones del WordPress
