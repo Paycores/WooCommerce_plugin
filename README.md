@@ -6,7 +6,7 @@ para pagos a través de nuestra pasarela. A continuación describimos los puntos
 cuenta para integrar nuestro plugin WooCommerce de forma segura y sencilla.
 
 **Paso 1:**
-Se debe de [descargar](https://Paycores/WooCommerce_plugin/archive/master.zip) el plugin WooCommerce de Paycores.
+Se debe de [descargar](https://codeload.github.com/Paycores/WooCommerce_plugin/zip/master) el plugin WooCommerce de Paycores.
 
 
 **Paso 2:**
