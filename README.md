@@ -23,13 +23,13 @@ Clic en **instalar Ahora**
 ![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_4.png)
 ![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_5.png)
 
-Para finalizar la instalacion activa el plugin WooCommerce de Paycores
+Para finalizar la instalación activa el plugin WooCommerce de Paycores
 ![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_6.png)
 
 ## Configurar el plugin WooCommerce de Paycores ##
 
 **Paso 3:**
-En el menu WooCoommerce selecciona **Ajustes**
+En el menú WooCoommerce selecciona **Ajustes**
 para el correcto funcionamiento del plugin WooCommerce de Paycores debe configurar el número de decimales en 2,
 y separador decimal con punto "."
 ![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_7.png)
@@ -44,4 +44,5 @@ Llene los datos que se solicitan y presione el boton **Guardar los cambios**![al
 Felicitaciones ha integrado pagos a través de Paycores en su página web.
 
  ## Recomendaciones: ##
-Tenga en cuenta que los pasos pueden cambiar un poco dependiendo de cada version WooCommerce y de algunas configuraciones del WordPress
+Tenga en cuenta que los pasos pueden cambiar un poco dependiendo de cada versión WooCommerce y de algunas configuraciones del WordPress
+para información más detallada puede escribir a soporte@paycores.com y nuestros ingenieros estaran para responder.
