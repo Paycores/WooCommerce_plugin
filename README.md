@@ -36,7 +36,6 @@ y separador decimal con punto "."
 
 **Paso 4:**
 En la pestaña **"Finalizar compra"** busque la pasarela de pagos **Paycores**
-<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
 ![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_8.png)
 
 **Paso 5:**
