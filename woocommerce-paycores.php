@@ -520,7 +520,7 @@ function paycores_woocommerce_init(){
             } else {
                 $redirect_url = $woocommerce->cart->get_checkout_url();
                 //For wooCoomerce 2.0
-                $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Hubo un error con la solicitud, cominiquese con el administrador del sitio web', 'paycores' )), 'type'=>$this->msg['class']), $redirect_url );
+                $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Hubo un error con la solicitud, cominiquese con el administrador del sitio web', 'paycores' )), 'type'=>'woocommerce-error'), $redirect_url );
 
                 wp_redirect( $redirect_url );
             }
