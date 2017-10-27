@@ -30,8 +30,7 @@ Para finalizar la instalacion activa el plugin WooCommerce de Paycores
 
 **Paso 3:**
 En el menu WooCoommerce selecciona **Ajustes**
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_6.png)
 
 para el correcto funcionamiento del plugin WooCommerce de Paycores debe configurar el número de decimales en 2,
 y separador decimal con punto "."
@@ -40,7 +39,7 @@ y separador decimal con punto "."
 **Paso 4:**
 En la pestaña **"Finalizar compra"** busque la pasarela de pagos **Paycores**
 <img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://raw.githubusercontent.com/paycores/steps/master/WoCommerce/step_7.png)
 
 **Paso 5:**
 Llene los datos que se solicitan y presione el boton **Guardar los cambios**
