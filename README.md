@@ -31,6 +31,7 @@ Para finalizar la instalacion activa el plugin WooCommerce de Paycores
 **Paso 3:**
 En el menu WooCoommerce selecciona **Ajustes**
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
 
 para el correcto funcionamiento del plugin WooCommerce de Paycores debe configurar el número de decimales en 2,
 y separador decimal con punto "."
@@ -38,16 +39,15 @@ y separador decimal con punto "."
 
 **Paso 4:**
 En la pestaña **"Finalizar compra"** busque la pasarela de pagos **Paycores**
+<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 **Paso 5:**
 Llene los datos que se solicitan y presione el boton **Guardar los cambios**
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
 
 Felicitaciones ha integrado pagos a través de Paycores en su página web.
 
  ## Recomendaciones: ##
 El servicio de nuestra Api requiere de que los servidores cuenten con un certificado TLS debidamente firmado, y el proyecto debe de estar bien estructurado con el código limpio para que el certificado TLS SSL funcione correctamente. 
 
-
-<img src="https://raw.github.com/neokree/MaterialTabs/master/screen.jpg" alt="screenshot" width="300px" height="auto" />
