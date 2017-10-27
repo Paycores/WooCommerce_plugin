@@ -1,5 +1,5 @@
 ## Plugin WooCommerce de Paycores.com ##
-[link a Paycores WooComerce](https://github.com/Paycores/WooCommerce_plugin).
+[link a Paycores WooComerce](https://paycores.com/complementos#woocommerce).
 
 Paycores brinda soporte seguro y confiable, por esto ofrecemos nuestro plugin WooCommerce 
 para pagos a través de nuestra pasarela. A continuación describimos los puntos que debes de tener en 
