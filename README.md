@@ -11,13 +11,13 @@ Se debe de [descargar](https://Paycores/WooCommerce_plugin/archive/master.zip)el
 
 **Paso 2:**
 Instalación en WooCommerce: en el menu de Plugins haces clic en **Añadir nuevo**
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://www.w3schools.com/css/img_fjords.jpg)
 
 Despues haces clic en **Subir plugin**
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 Selecciona el plugin WooCommerce de Paycores descargado anteriormente
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://www.w3schools.com/css/img_fjords.jpg)
 
 Clic en **instalar Ahora**
 ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
