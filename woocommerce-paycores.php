@@ -687,7 +687,7 @@ function paycores_woocommerce_init(){
  * @param (string) $currency_symbol, (string) $currency
  * @return (string) filtered currency simbol
  */
-function frontend_filter_currency_symbol( $currency_symbol, $currency ) {
+function frontend_filter_currency_symbol_paycores( $currency_symbol, $currency ) {
     switch( $currency ) {
         case 'USD': $currency_symbol = '$'; break;
         case 'COP': $currency_symbol = '$'; break;
@@ -695,4 +695,4 @@ function frontend_filter_currency_symbol( $currency_symbol, $currency ) {
     return $currency_symbol;
 }
 
-add_filter( 'woocommerce_currency_symbol', 'frontend_filter_currency_symbol', 1, 2);
+add_filter( 'woocommerce_currency_symbol', 'frontend_filter_currency_symbol_paycores', 1, 2);
