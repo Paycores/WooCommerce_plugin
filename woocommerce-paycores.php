@@ -74,8 +74,8 @@ function paycores_woocommerce_init(){
             $this->currency             = ($this->is_valid_currency())?get_woocommerce_currency():'USD';
             $this->textactive           = 0;
             $this->form_method          = $this->settings['form_method'];
-            $this->liveurl              = 'https://business.paycores.com/web-checkout/';
-            $this->testurl              = 'https://sandbox.paycores.com/web-checkout/';
+            $this->liveurl              = 'http://localhost/business_core/web-checkout/';//'https://business.paycores.com/web-checkout/';
+            $this->testurl              = 'http://localhost/business_core/web-checkout/';//'https://sandbox.paycores.com/web-checkout/';
             /* Mensajes de Paycores */
             $this->msg_approved         = $this->settings['msg_approved'];
             $this->msg_declined         = $this->settings['msg_declined'];
@@ -340,7 +340,9 @@ function paycores_woocommerce_init(){
             $paycores = "paycores";
 
             $paycores_args = array(
-                $paycores.'_is_woocommerce'     => true,
+                $paycores.'_is_ecommerce'       => true,
+                $paycores.'_type_ecommerce'     => $paycores."WooCommerce",
+                $paycores.'_order_id'           => $order->order_id,
                 $paycores.'_access_commerceid'  => $this->commerceId,
                 $paycores.'_access_login'       => $this->apiKeySecure,
                 $paycores.'_signature'          => $hash,
@@ -568,12 +570,11 @@ function paycores_woocommerce_init(){
                 default :
                     $this->msg['message'] = $this->msg_cancel ;
                     $this->msg['class'] = 'woocommerce-error';
-                    $order->update_status( 'failed', sprintf( __( 'Pago rechazado por Paycores.', 'paycores-woocommerce'), ( $codes[$state] ) ) );
-                    $order->update_status( 'Failed' );
+                    $order->update_status( 'failed', __('Pago rechazado por Paycores. Código de error: ' . $state, 'paycores-woocommerce'), ($codes[$state]));
                     $woocommerce->cart->empty_cart();
 
                     $shop_page_url = $woocommerce->cart->get_cart_url();
-                    $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Pago rechazado por Paycores.', 'paycores' )), 'type'=>$this->msg['class']), $shop_page_url );
+                    $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Pago rechazado por Paycores. Código de error: ' . $state, 'paycores' )), 'type'=>$this->msg['class']), $shop_page_url );
                     wp_redirect( $redirect_url );
                     break;
             }
