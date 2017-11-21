@@ -346,7 +346,6 @@ function paycores_woocommerce_init(){
                 $paycores.'_access_commerceid'  => $this->commerceId,
                 $paycores.'_access_login'       => $this->apiKeySecure,
                 $paycores.'_signature'          => $hash,
-                $paycores.'_referenceCode'      => $txnid,
                 $paycores.'_amount'             => $order->order_total,
                 $paycores.'_currency'           => $this->currency,
                 $paycores.'_usr_name'           => $order->billing_first_name,
