@@ -569,11 +569,11 @@ function paycores_woocommerce_init(){
                 default :
                     $this->msg['message'] = $this->msg_cancel ;
                     $this->msg['class'] = 'woocommerce-error';
-                    $order->update_status( 'failed', __('Pago rechazado por Paycores. Código de error: ' . $state, 'paycores-woocommerce'), ($codes[$state]));
+                    $order->update_status( 'failed', __('Pago rechazado por Paycores. Código de error: ' . $state . ' | Respuesta: ' . $posted["message"], 'paycores-woocommerce'), ($codes[$state]));
                     $woocommerce->cart->empty_cart();
 
                     $shop_page_url = $woocommerce->cart->get_cart_url();
-                    $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Pago rechazado por Paycores. Código de error: ' . $state, 'paycores' )), 'type'=>$this->msg['class']), $shop_page_url );
+                    $redirect_url = add_query_arg( array('msg'=> urlencode(__( 'Pago rechazado por Paycores. Código de error: ' . $state . '<br> Respuesta: ' . $posted["message"], 'paycores' )), 'type'=>$this->msg['class']), $shop_page_url );
                     wp_redirect( $redirect_url );
                     break;
             }
